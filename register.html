@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title> FASHION TECH - REGISTRATION  </title>
+    <script src='script.js'></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</head>
+<body>
+ <div class="wrapper">
+  <div class="form-box register">
+    <h2> REGISTRATION </h2>
+    <form action="#">
+        <div class="input-box">
+           <span class="icon"><ion-icon name="person"></ion-icon></span>
+           <input type="username" id="username" required>
+           <label>User Name</label>
+        </div><br>
+        <div class="input-box" >
+            <span class="icon"><ion-icon name="mail"></ion-icon></span>
+            <input type="email" id="emailinput" placeholder="Ex:abcd@gmail.com" title="Please provide a PROPER  FORMAT  EMAIL  ADDRESS. Example:(abcd@gmail.com)" required>
+            <label>Email</label>
+        </div><br>
+        <div class="input-box" >
+           <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+           <input type="password" id="passinput"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain 1 NUMBER,1 SPECIAL CHARACTER,1 UPPERCASE and LOWERCASE letter with atleast 8 or more characters" required>
+           <label>Password</label>
+        </div><br><br>
+        <div class="input-box">
+          <span class="icon"><ion-icon name="call"></ion-icon></span>
+          <input type="number"  id="number" placeholder="Enter ten digits..." title="Must contain 10 numbers only" required >
+          <label>Phone Number</label>
+        </div><br>
+        
+        <div class="remember-forgot">
+           <label><input type="checkbox" id="checkbox"> I agree to the terms & conditions </label>
+        </div><br>
+        <button type="submit" class="btn"id="submitButton" onclick="func1()">Register</button>
+        <div class="login-register">
+           <p>Already have an account? 
+               <a href="index.html" class="login-link">Login</a>
+           </p>
+        </div>   
+    </form>
+  </div>
+ </div>
+</body>
+<footer>
+    <p><marquee width="50%">Designed by: RAMYA T</marquee><br>
+       <a href="stramya9@gmail.com">E-mail : stramya9@gmail.com</a>
+    </p>
+    
+</footer>
+</html>
+
+
+
+

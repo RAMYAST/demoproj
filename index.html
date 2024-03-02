@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>FASHION TECH</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+
+</head>
+<body>
+    <H1><ion-icon name="star-outline"></ion-icon> VintAGE FashiON <ion-icon name="star-outline"></ion-icon> </H1>
+    <div class="topnav">
+       <a href="#home" ><ion-icon name="home-outline"></ion-icon>  Home</a>
+       <a href="about.html"><ion-icon name="logo-buffer"></ion-icon> About</a>
+       <a href="gallery.html"><ion-icon name="images-outline"></ion-icon> Gallery</a>
+       <a href="contact.html"><ion-icon name="call-outline"></ion-icon> Contact</a>
+       <button class="btnLogin" onclick="myFunction()" > <ion-icon name="log-in-outline"></ion-icon> Login</button>
+    </div>
+    <br>
+    <br>
+    <div class="wrapper">
+        <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+       <div class="form-box login">
+          <h2> Login </h2>
+            <form action="#">
+                <div class="input-box">
+                  <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                  <input type="email" id="mail" placeholder="Ex:abcd@gmail.com" title="Please provide a proper formatted E-mail address. Example:(abcd@gmail.com)" required>
+                  <label>Email</label>
+                </div><br>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" id="pswrd" placeholder=" maxi 6 letters(EX:Ab1#cd)"pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" title="Must contain at least one number,one special character, one uppercase and lowercase letter, and total 6 characters only" required>
+                    <label>Password</label>
+                </div><br><br>
+                <div class="remember-forgot">
+                    <label><input type="checkbox"> Remember me </label>
+                    <a href="abc123@gmail.com">Forgot  Password?</a>
+                </div><br>
+                <button type="submit" class="btn"onclick="func2()">Login</button>
+                <div class="login-register">
+                    <p>Don't have an account? 
+                        <a href="register.html" class="register-link">Register</a>
+                    </p> 
+                </div>   
+            </form>
+        </div>
+    </div>
+
+ <script src='script.js'></script>
+</body>
+</html>

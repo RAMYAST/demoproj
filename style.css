@@ -1,0 +1,197 @@
+.topnav a {
+    float: flex;
+    color: black;
+    padding: 14px ;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  .topnav button{
+    font-size: 25px;
+    padding: 14px;
+    border-radius: 20px;
+
+  }
+  
+  .topnav a:hover {
+    background-color:brown;
+    color:white;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .topnav .btnLogin {
+    cursor: pointer;
+    color:black;
+    }
+
+  .topnav button:hover{
+      color: red;
+      background-color:rgb(31, 228, 162);
+  }
+  
+body{
+    background-image: url('result.jpg');
+    background-size:cover;
+}
+body h1{
+  color:rgb(10, 19, 10);
+  font-size: 3rem;
+  font-style: italic;
+  font-family:cursive;
+  text-align: center;
+  background: rgb(244, 245, 246);
+  margin-left: 20rem;
+  margin-right: 20rem;
+  border-radius: 30px;
+}
+body .para img{
+ margin-left: 28%;
+}
+
+body .para p{
+  text-align: justify;
+  width: 800px;
+  height:400px;
+  margin-left: 25%;
+  font-size: 2rem;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: rgb(184, 205, 142);
+}
+
+body h3{
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 3rem;
+  background-color: aliceblue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body .image{
+
+  margin-left: 30%;
+  width: 25rem;
+  height: 25rem;
+  
+}
+body .contact p{
+  font-size: 2rem;
+  text-align: center;
+  
+}
+.wrapper{
+  position: relative;
+  width:450px;
+  height:500px;
+  background: transparent;
+  backdrop-filter: blur(100px);
+  border:2px solid black;
+  border-width: 3px;
+  border-radius: 20px;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30rem;
+  
+}
+
+.wrapper .icon-close{
+  position: absolute;
+  top:0;
+  right:0;
+  width: 45px;
+  height: 45px;
+  font-size: 2rem;
+  cursor: pointer;
+  background:rgb(30, 27, 27);
+  border-radius: 15px;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper .form-box{
+  width:100%;
+  padding:50px;
+}
+
+ 
+
+.form-box h2{
+  font-size: 3 rem;
+  color:black;
+  text-transform: uppercase;
+  text-align: center;
+  
+}
+
+
+.input-box{
+  position: relative;
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  border-bottom: 2px solid ;
+}
+
+
+
+.remember-forgot{
+  display: flex;
+  font-size: 20px;
+  justify-content: space-between;
+  margin: -15px 0 15px;
+}
+.btn{
+  height:40px;
+  background: rgb(15, 15, 15);
+  border-radius:20px;
+  cursor:pointer;
+  width:100%;
+  color: white;
+  font-size: 20px;
+  
+
+}
+
+.image figcaption{
+  background-color: aliceblue;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.para figcaption{
+  background-color: aliceblue;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.login-register{
+  font-size:20px;
+  text-align: center;
+
+}
+
+
+input:invalid{
+  border: 4px  dashed red;
+}
+
+input:valid{
+  border: 2px solid black;
+}
+
+footer{
+  text-align:right;
+  color:black;
+  backdrop-filter: blur(20px);
+  font-size: xx-large;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+footer a{
+  color: blue;
+}
